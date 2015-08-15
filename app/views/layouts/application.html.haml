@@ -1,0 +1,15 @@
+!!! 5
+%html
+    %head
+        = render 'layouts/meta_and_styles'
+
+    %body
+        = render 'layouts/navbar'
+
+        .body--wrapper
+
+            = yield
+
+        = render 'layouts/footer'
+
+        = render 'layouts/scripts'
