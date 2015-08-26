@@ -1,3 +1,23 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    color: #2e382e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #c90187;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #61abeb;
+}
